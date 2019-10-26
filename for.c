@@ -18,25 +18,33 @@
    * ForLoop - This program describes the use of for loop
    */
 
-#include <stdio.h>
+#include<stdio.h>
 
 int main()
 {
-	int I;
+	int i;
 
-	for(I = 0; I < 10; I++) 
+	for(i=0;i<10;i++) 
 	{
-		printf("%d\n", I);
+		printf("%d\n",i);
 	}
-/*
-Syntax :
-for(initialize; condition; increment or decrement)
-{
-	// statements...
-	st1;
-	st2;
-}
-*/
+		/*
+		Syntax:
+		for(initialize;terminating condition; increment or decrement/flags)
+		{
+			// statements...
+			st1;
+			st2;
+		}
+		*/
+
+	/*EXAMPLE:
+		int n;
+		for(i=1;i<=20;printf("%d\n",i))
+		{
+			i++;
+		}
+	// This Loop Will Print Numbers Upto Twenty(20).
 
 	return 0;
 }
